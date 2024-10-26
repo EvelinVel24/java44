@@ -1,0 +1,19 @@
+<web-app>
+    <servlet>
+        <servlet-name>ProcesaLogin</servlet-name>
+        <servlet-class>com.ejemplo.sesion.ProcesaLogin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ProcesaLogin</servlet-name>
+        <url-pattern>/ProcesaLogin</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Deslogueo</servlet-name>
+        <servlet-class>com.ejemplo.sesion.Deslogueo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Deslogueo</servlet-name>
+        <url-pattern>/Deslogueo</url-pattern>
+    </servlet-mapping>
+</web-app>
